@@ -8,6 +8,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 <style>
@@ -24,6 +25,7 @@ font-family:"Manrope",sans-serif;
 background:#fafafa;
 color:#111;
 padding:60px;
+
 }
 
 header{
@@ -56,6 +58,39 @@ line-height:1.7;
 text-align:right;
 font-size:15px;
 line-height:1.7;
+
+}
+
+.nav{
+
+display:flex;
+justify-content:flex-end;
+gap:22px;
+font-size:14px;
+letter-spacing:.08em;
+margin-bottom:18px;
+
+}
+
+.nav a{
+
+text-decoration:none;
+color:#777;
+transition:.25s;
+
+}
+
+.nav a:hover{
+
+color:#111;
+
+}
+
+.nav a.active{
+
+color:#111;
+font-weight:700;
+
 }
 
 .gallery{
@@ -129,6 +164,12 @@ text-align:left;
 
 }
 
+.nav{
+
+justify-content:flex-start;
+
+}
+
 .gallery{
 
 columns:1;
@@ -162,6 +203,11 @@ Athens, Greece
 </div>
 
 <div class="contact">
+
+<nav class="nav">
+<a href="index.html" class="active">WORK</a>
+<a href="about.html">ABOUT</a>
+</nav>
 
 dafnikes23@gmail.com
 
