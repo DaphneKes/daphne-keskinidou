@@ -13,6 +13,25 @@
 
 <style>
 
+body{
+    font-family:"Manrope",sans-serif;
+    background:#fafafa;
+    color:#111;
+    padding:60px;
+    position:relative;
+    overflow-x:hidden;
+}
+
+.hero-shape{
+    position:absolute;
+    top:-70px;
+    left:50%;
+    transform:translateX(-50%);
+    width:820px;
+    pointer-events:none;
+    z-index:0;
+}
+
 *{
 margin:0;
 padding:0;
@@ -29,10 +48,13 @@ padding:60px;
 <img src="images/element.png" class="hero-shape" alt="">
 
 header{
-display:flex;
-justify-content:space-between;
-align-items:flex-start;
-margin-bottom:80px;
+    position:relative;
+    z-index:2;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    margin-bottom:80px;
 }
 
 h1{
