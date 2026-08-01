@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -21,220 +20,132 @@ box-sizing:border-box;
 }
 
 body{
-
 font-family:"Manrope",sans-serif;
 background:#fafafa;
 color:#111;
 padding:60px;
-
-position:relative;
-overflow-x:hidden;
-
-}
-
-.hero-shape{
-
-position:absolute;
-top:-75px;
-left:56%;
-transform:translateX(-50%);
-width:820px;
-
-pointer-events:none;
-z-index:0;
-
 }
 
 header{
-
-position:relative;
-z-index:2;
-
 display:flex;
 justify-content:space-between;
 align-items:flex-start;
-
 margin-bottom:80px;
-
 }
 
 h1{
-
 font-size:42px;
 font-weight:700;
 letter-spacing:-2px;
-
 }
 
 .subtitle{
-
 margin-top:10px;
 font-size:16px;
 line-height:1.7;
-
 }
 
 .contact{
-
 text-align:right;
 font-size:15px;
 line-height:1.7;
-
 }
 
 .nav{
-
 display:flex;
 justify-content:flex-end;
 gap:22px;
-
 font-size:14px;
 letter-spacing:.08em;
-
 margin-bottom:18px;
-
 }
 
 .nav a{
-
 text-decoration:none;
 color:#777;
 transition:.25s;
-
 }
 
 .nav a:hover{
-
 color:#111;
-
 }
 
 .nav a.active{
-
 color:#111;
 font-weight:700;
-
 }
 
 .gallery{
-
-position:relative;
-z-index:2;
-
 columns:3 320px;
 column-gap:24px;
-
 }
 
 .gallery img{
-
 width:100%;
 margin-bottom:24px;
-
 display:block;
-
 cursor:pointer;
-
 transition:.35s;
-
 }
 
 .gallery img:hover{
-
 transform:translateY(-4px);
-
 }
 
 .lightbox{
-
 position:fixed;
 inset:0;
-
 background:rgba(0,0,0,.94);
-
 display:none;
 align-items:center;
 justify-content:center;
-
 z-index:999;
-
 }
 
 .lightbox img{
-
 max-width:92%;
 max-height:92%;
-
 }
 
 footer{
-
-position:relative;
-z-index:2;
-
 margin-top:90px;
-
 font-size:14px;
 color:#666;
-
 }
 
 @media(max-width:700px){
 
 body{
-
 padding:30px;
-
-}
-
-.hero-shape{
-
-width:470px;
-top:-25px;
-left:50%;
-
 }
 
 header{
-
 flex-direction:column;
 gap:30px;
-
 }
 
 .contact{
-
 text-align:left;
-
 }
 
 .nav{
-
 justify-content:flex-start;
-
 }
 
 .gallery{
-
 columns:1;
-
 }
 
 h1{
-
 font-size:34px;
-
 }
 
 }
 
 </style>
-
 </head>
 
 <body>
-
-<img src="images/element.png" class="hero-shape" alt="">
 
 <header>
 
@@ -243,10 +154,8 @@ font-size:34px;
 <h1>Daphne Keskinidou</h1>
 
 <div class="subtitle">
-
 Illustrator<br>
 Athens, Greece
-
 </div>
 
 </div>
@@ -254,10 +163,8 @@ Athens, Greece
 <div class="contact">
 
 <nav class="nav">
-
 <a href="index.html" class="active">WORK</a>
 <a href="about.html">ABOUT</a>
-
 </nav>
 
 dafnikes23@gmail.com
@@ -269,19 +176,15 @@ dafnikes23@gmail.com
 <section class="gallery">
 
 <img src="images/11.jpg">
-
 <img src="images/1.jpg">
 <img src="images/2.jpg">
 <img src="images/10.jpg">
-
 <img src="images/3.jpg">
 <img src="images/4.jpg">
 <img src="images/5.jpg">
-
 <img src="images/6.jpg">
 <img src="images/7.jpg">
 <img src="images/8.jpg">
-
 <img src="images/9.jpg">
 
 </section>
